@@ -57,6 +57,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -390,6 +391,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -550,7 +552,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_bossName: MegaTron
-  m_currentHealth: 10
+  m_currentHealth: 40
   m_phases:
   - phaseShots:
     - shotPrefab: {fileID: 1046828886926881459, guid: 00f4430a25a8ce54ea3eb37975d9f1e1,
@@ -563,7 +565,7 @@ MonoBehaviour:
       timeBetweenShots: 1
       shotCounter: 0.2
       firePoint: {fileID: 4751194863663901790}
-    healthToEndPhase: 5
+    healthToEndPhase: 10
     removeAtPhaseEnd: {fileID: 4751194864546825049}
     addAtPhaseEnd: {fileID: 5149680635239798259, guid: 50209886f73c10347b3d8d4e8aadc944,
       type: 3}
